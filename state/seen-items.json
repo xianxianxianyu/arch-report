@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-07-27T09:37:31.6203521+08:00",
+    "updated_at":  "2026-07-29T17:03:00+08:00",
     "canonical_ids":  {
                           "arxiv:2607.18575":  {
                                                    "published_at":  "2026-07-23T10:51:07+08:00",
@@ -181,6 +181,46 @@
                           "url:aws-jefferies-trade-assistant-2026":  {
                                                                          "published_at":  "2026-07-27T09:37:31.6203521+08:00",
                                                                          "report_path":  "reports/2026-07-27/2026-07-27_09-21.md"
+                                                                     },
+                          "url:huggingface-security-incident-july-2026":  {
+                                                                              "published_at":  "2026-07-28T10:55:44+08:00",
+                                                                              "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                                                                          },
+                          "url:cloudflare-agents-sdk-v0200-mcp-v2-2026":  {
+                                                                               "published_at":  "2026-07-28T10:55:44+08:00",
+                                                                               "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                                                                           },
+                          "url:microsoft-agent-framework-harness-release-2026":  {
+                                                                                     "published_at":  "2026-07-28T10:55:44+08:00",
+                                                                                     "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                                                                                 },
+                          "url:aws-managed-kb-enterprise-search-agents-2026":  {
+                                                                                  "published_at":  "2026-07-28T10:55:44+08:00",
+                                                                                  "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                                                                              },
+                          "url:aws-couchbase-capella-iq-multimodel-2026":  {
+                                                                             "published_at":  "2026-07-28T10:55:44+08:00",
+                                                                             "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                                                                         },
+                          "arxiv:2607.25883":  {
+                                                  "published_at":  "2026-07-29T17:03:00+08:00",
+                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                                              },
+                          "arxiv:2607.25431":  {
+                                                  "published_at":  "2026-07-29T17:03:00+08:00",
+                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                                              },
+                          "arxiv:2607.25619":  {
+                                                  "published_at":  "2026-07-29T17:03:00+08:00",
+                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                                              },
+                          "arxiv:2607.25656":  {
+                                                  "published_at":  "2026-07-29T17:03:00+08:00",
+                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                                              },
+                          "url:microsoft-agent-framework-mcp-skills-dotnet-2026":  {
+                                                                                      "published_at":  "2026-07-29T17:03:00+08:00",
+                                                                                      "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
                                                                      }
                       }
 }

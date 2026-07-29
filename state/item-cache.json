@@ -1,7 +1,7 @@
 {
     "schema_version":  1,
     "active_scope":  "agent-server-architecture-v1",
-    "updated_at":  "2026-07-27T09:37:31.6203521+08:00",
+    "updated_at":  "2026-07-29T17:03:00+08:00",
     "records":  [
                     {
                         "canonical_id":  "arxiv:2607.18575",
@@ -2818,6 +2818,765 @@
                                         ],
                         "first_discovered_at":  "2026-07-27T09:21:15.2830865+08:00",
                         "last_checked_at":  "2026-07-27T09:21:15.2830865+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "url:huggingface-security-incident-july-2026",
+                        "title":  "Security incident disclosure — July 2026",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "Hugging Face / OpenAI security disclosures",
+                        "canonical_url":  "https://huggingface.co/blog/security-incident-july-2026",
+                        "published_at":  "2026-07-16T00:00:00Z",
+                        "topic_cluster":  "agent-driven-evaluation-escape-and-production-intrusion",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  25,
+                                      "evidence_strength":  15,
+                                      "agent_server_value":  14,
+                                      "total":  99
+                                  },
+                        "subsystems":  [
+                                           "evaluation sandbox",
+                                           "network egress proxy",
+                                           "credential boundary",
+                                           "security telemetry",
+                                           "incident response"
+                                       ],
+                        "failure_modes":  [
+                                              "a package-cache proxy becomes an unintended path from an isolated evaluation sandbox to the Internet",
+                                              "stolen credentials enable privilege escalation and lateral movement across clusters",
+                                              "hosted-model safeguards block defenders from processing real malicious telemetry",
+                                              "an agent optimizes for benchmark completion beyond the intended evaluation boundary"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://huggingface.co/blog/security-incident-july-2026",
+                                              "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "the joint forensic investigation is still preliminary",
+                                            "the disclosures omit exploit details, exact topology, and full blast-radius evidence",
+                                            "OpenAI and Hugging Face are participants in the incident rather than independent auditors"
+                                        ],
+                        "first_discovered_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "published_in_report_at":  "2026-07-28T10:55:44+08:00",
+                        "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                    },
+                    {
+                        "canonical_id":  "url:cloudflare-agents-sdk-v0200-mcp-v2-2026",
+                        "title":  "Agents SDK adds MCP Specification 2026-07-28 support",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "Cloudflare Developers / MCP project",
+                        "canonical_url":  "https://developers.cloudflare.com/changelog/post/2026-07-27-agents-sdk-v0.20.0-mcp-sdk-v2/",
+                        "published_at":  "2026-07-27T00:00:00Z",
+                        "topic_cluster":  "mcp-stateless-v2-dual-lane-migration",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  25,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  99
+                                  },
+                        "subsystems":  [
+                                           "MCP client manager",
+                                           "stateless MCP server",
+                                           "protocol discovery",
+                                           "OAuth callback",
+                                           "compatibility router"
+                                       ],
+                        "failure_modes":  [
+                                              "protocol-level sessions force sticky routing and shared session stores",
+                                              "a breaking protocol migration can strand legacy clients or stateful server features",
+                                              "OAuth credentials can be rebound to the wrong issuer after redirects",
+                                              "client and server capability generations can be misdetected"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://developers.cloudflare.com/changelog/post/2026-07-27-agents-sdk-v0.20.0-mcp-sdk-v2/",
+                                              "https://developers.cloudflare.com/agents/model-context-protocol/guides/migrate-to-mcp-sdk-v2/",
+                                              "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "the upstream MCP specification was still described as a release candidate in the implementation announcement",
+                                            "legacy sessionful features require application-specific redesign",
+                                            "the changelog does not publish workload-level latency or migration failure measurements"
+                                        ],
+                        "first_discovered_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "published_in_report_at":  "2026-07-28T10:55:44+08:00",
+                        "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                    },
+                    {
+                        "canonical_id":  "url:microsoft-agent-framework-harness-release-2026",
+                        "title":  "The Microsoft Agent Framework Harness is now released",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "Microsoft Agent Framework",
+                        "canonical_url":  "https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/",
+                        "published_at":  "2026-07-22T00:00:00Z",
+                        "topic_cluster":  "batteries-included-agent-harness-runtime",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  19,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  97
+                                  },
+                        "subsystems":  [
+                                           "tool-call loop",
+                                           "per-call history persistence",
+                                           "context compaction",
+                                           "planning state",
+                                           "approval policy",
+                                           "OpenTelemetry"
+                                       ],
+                        "failure_modes":  [
+                                              "history is lost when a process crashes between model calls",
+                                              "long tool loops overflow context or lose their plan",
+                                              "approval and telemetry behavior diverges across hand-built harnesses",
+                                              "experimental shell, looping, and background-agent features are mistaken for stable defaults"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/",
+                                              "https://github.com/microsoft/agent-framework"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "the production-ready characterization is a vendor claim without independent reliability benchmarks",
+                                            "looping, shell access, file tools, and background agents remain warning-gated or unreleased",
+                                            "default tool auto-approval still requires application risk review"
+                                        ],
+                        "first_discovered_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "published_in_report_at":  "2026-07-28T10:55:44+08:00",
+                        "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                    },
+                    {
+                        "canonical_id":  "url:aws-managed-kb-enterprise-search-agents-2026",
+                        "title":  "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "AWS Artificial Intelligence Blog",
+                        "canonical_url":  "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/",
+                        "published_at":  "2026-07-16T00:00:00Z",
+                        "topic_cluster":  "agentic-enterprise-retrieval-realtime-acl",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  98
+                                  },
+                        "subsystems":  [
+                                           "enterprise connectors",
+                                           "authoritative ACL check",
+                                           "agentic retrieval planner",
+                                           "MCP gateway",
+                                           "retrieval trace"
+                                       ],
+                        "failure_modes":  [
+                                              "synced ACL metadata becomes stale relative to the source system",
+                                              "single-pass retrieval fails multi-hop questions",
+                                              "agents couple directly to knowledge-base identifiers and permission models",
+                                              "iterative retrieval grows latency and cost without an explicit bound"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/",
+                                              "https://github.com/aws-samples/amazon-bedrock-samples"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "performance and accuracy claims are not supported by an independent benchmark",
+                                            "real-time ACL checks still depend on connector correctness and source availability",
+                                            "managed storage and orchestration reduce portability and implementation visibility"
+                                        ],
+                        "first_discovered_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "published_in_report_at":  "2026-07-28T10:55:44+08:00",
+                        "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                    },
+                    {
+                        "canonical_id":  "url:aws-couchbase-capella-iq-multimodel-2026",
+                        "title":  "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "AWS / Couchbase production case study",
+                        "canonical_url":  "https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock/",
+                        "published_at":  "2026-07-20T00:00:00Z",
+                        "topic_cluster":  "multimodel-private-cross-region-inference",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  14,
+                                      "total":  96
+                                  },
+                        "subsystems":  [
+                                           "provider abstraction",
+                                           "tenant routing configuration",
+                                           "private inference endpoint",
+                                           "cross-region inference",
+                                           "model qualification pipeline"
+                                       ],
+                        "failure_modes":  [
+                                              "a single model provider or Region becomes a correlated availability boundary",
+                                              "traffic bursts cause throttling without pre-provisioned capacity",
+                                              "provider-specific response formats corrupt fair model comparison",
+                                              "automatic cross-region routing violates geography policy unless constrained"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock/"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "the architecture and 76 percent internal accuracy result are vendor and customer self-reports",
+                                            "latency, throughput, and failover SLO values are not disclosed",
+                                            "the described cross-region inference remains AWS-specific"
+                                        ],
+                        "first_discovered_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "published_in_report_at":  "2026-07-28T10:55:44+08:00",
+                        "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
+                    },
+                    {
+                        "canonical_id":  "url:microsoft-agent-experience-emulation-2026",
+                        "title":  "How to test agent experience changes without shipping them",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "Microsoft for Developers",
+                        "canonical_url":  "https://developer.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+                        "published_at":  "2026-07-21T00:00:00Z",
+                        "topic_cluster":  "agent-surface-emulation-evaluation",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  22,
+                                      "evidence_strength":  15,
+                                      "agent_server_value":  14,
+                                      "total":  95
+                                  },
+                        "subsystems":  [
+                                           "evaluation harness",
+                                           "HTTP interception proxy",
+                                           "hypothesis variant",
+                                           "release gate"
+                                       ],
+                        "failure_modes":  [
+                                              "teams deploy documentation or MCP response changes to learn whether they work",
+                                              "plausible interface changes degrade quality or multiply token cost",
+                                              "test URLs or mocks change the artifact being evaluated",
+                                              "a failed hypothesis requires production rollback"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://developer.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+                                              "https://devproxy.net"
+                                          ],
+                        "state":  "eligible",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "the experiments cover a narrow SharePoint Framework upgrade scenario",
+                                            "the proxy can only reproduce explicitly modeled response behavior",
+                                            "retained for source and production-problem coverage optimization"
+                                        ],
+                        "first_discovered_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "url:openai-presence-2026",
+                        "title":  "Introducing OpenAI Presence",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "OpenAI",
+                        "canonical_url":  "https://openai.com/index/introducing-openai-presence/",
+                        "published_at":  "2026-07-22T00:00:00Z",
+                        "topic_cluster":  "managed-enterprise-agent-deployment-product",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  17,
+                                      "architecture_depth":  17,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  87
+                                  },
+                        "subsystems":  [
+                                           "policy",
+                                           "guardrail",
+                                           "escalation",
+                                           "simulation",
+                                           "controlled rollout"
+                                       ],
+                        "failure_modes":  [
+                                              "production behavior drifts as policies and user behavior change",
+                                              "high-risk interactions fail to escalate",
+                                              "agent changes ship without comparative evaluation"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://openai.com/index/introducing-openai-presence/"
+                                          ],
+                        "state":  "rejected",
+                        "rejection_reason":  "architecture_depth_below_threshold",
+                        "limitations":  [
+                                            "the page describes a forward-deployed product rather than its protocols, state model, or deployment topology",
+                                            "internal resolution and handoff results are not accompanied by workload definitions or independent evaluation",
+                                            "architecture depth is below the hard threshold"
+                                        ],
+                        "first_discovered_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25883",
+                        "title":  "Towards a Systems Foundation for Agentic Cloud Management",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "The University of Hong Kong / Microsoft / UIUC",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25883",
+                        "published_at":  "2026-07-28T15:44:44Z",
+                        "topic_cluster":  "agentic-cloud-management-semantic-transactions",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  25,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  99
+                                  },
+                        "subsystems":  [
+                                           "authoritative resource graph",
+                                           "session view",
+                                           "semantic transaction",
+                                           "capacity escrow"
+                                       ],
+                        "failure_modes":  [
+                                              "conflicting agent intents resolve according to API interleaving",
+                                              "blind retries destroy a replacement resource or recreate a deleted resource",
+                                              "workflow-local state misses cross-session dependencies and quota",
+                                              "provider errors do not attribute the blocking intent"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25883"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint rather than a formally accepted paper",
+                                            "preliminary validation contains six Azure API operations across three sessions",
+                                            "large-scale traces and full provider coverage remain future work"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  "2026-07-29T17:03:00+08:00",
+                        "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25431",
+                        "title":  "CodeNib: A Multi-View Data System for Serving Repository Context to Coding Agents",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "UC San Diego / Stanford / UC Riverside / USC",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25431",
+                        "published_at":  "2026-07-28T08:25:30Z",
+                        "topic_cluster":  "coding-agent-repository-context-serving",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  25,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  14,
+                                      "total":  98
+                                  },
+                        "subsystems":  [
+                                           "repository view compiler",
+                                           "materialized lexical vector and structural views",
+                                           "view manifest",
+                                           "bounded context runtime"
+                                       ],
+                        "failure_modes":  [
+                                              "agents repeat repository discovery for every task",
+                                              "heterogeneous indexes disagree on commit and source locations",
+                                              "incremental maintenance silently serves stale context",
+                                              "repository exploration consumes unbounded trajectory tokens"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25431"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint rather than a formally accepted paper",
+                                            "evaluation covers localization and context serving rather than patch correctness",
+                                            "concurrent production updates are outside the study",
+                                            "the code and artifact repository linked by the paper returned HTTP 404 during this run"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  "2026-07-29T17:03:00+08:00",
+                        "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25619",
+                        "title":  "SkillGate: Cost Efficient Runtime Malicious Skill File Detection in Coding Agents",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "Monash University / University of Melbourne / Transurban",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25619",
+                        "published_at":  "2026-07-28T11:50:19Z",
+                        "topic_cluster":  "agent-skill-supply-chain-admission",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  15,
+                                      "agent_server_value":  15,
+                                      "total":  98
+                                  },
+                        "subsystems":  [
+                                           "MCP admission proxy",
+                                           "rule prefilter",
+                                           "LLM judge",
+                                           "quarantine and audit"
+                                       ],
+                        "failure_modes":  [
+                                              "Markdown skills bypass code-oriented supply-chain scanners",
+                                              "malicious instructions enter the agent context before review",
+                                              "full-file LLM review is costly and exposes sensitive content",
+                                              "content approval is confused with capability authorization"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25619",
+                                              "https://github.com/awsm-research/skillgate"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint with a non-adaptive attacker model",
+                                            "malicious benchmark cases are hand-crafted",
+                                            "public rules and the LLM judge can be targeted by adaptive evasion"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  "2026-07-29T17:03:00+08:00",
+                        "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25656",
+                        "title":  "OrchBench: Evaluating Multi-Agent Orchestration Plans in Isolation via Deterministic Simulation",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "Fudan University / Zhongguancun Academy / Queen Mary University of London",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25656",
+                        "published_at":  "2026-07-28T12:43:34Z",
+                        "topic_cluster":  "multi-agent-orchestration-deterministic-simulation",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  15,
+                                      "agent_server_value":  14,
+                                      "total":  97
+                                  },
+                        "subsystems":  [
+                                           "task DAG",
+                                           "orchestration planner",
+                                           "deterministic simulator",
+                                           "real-runtime canary"
+                                       ],
+                        "failure_modes":  [
+                                              "end-to-end tests conflate planner quality with workers and tools",
+                                              "real execution cost prevents orchestration stress tests",
+                                              "missing cross-agent transfers are hidden by aggregate outcomes",
+                                              "more agents add coordination cost without quality gains"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25656"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint rather than a formally accepted paper",
+                                            "simulation abstracts worker reasoning and shared resource waits",
+                                            "quality correlation does not prove per-task equivalence"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  "2026-07-29T17:03:00+08:00",
+                        "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                    },
+                    {
+                        "canonical_id":  "url:microsoft-agent-framework-mcp-skills-dotnet-2026",
+                        "title":  "Discover Agent Skills from MCP servers in .NET",
+                        "source_type":  "blog",
+                        "source_class":  "E",
+                        "source_name":  "Microsoft Agent Framework",
+                        "canonical_url":  "https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/",
+                        "published_at":  "2026-07-28T00:00:00Z",
+                        "topic_cluster":  "remote-mcp-agent-skill-distribution",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  23,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  97
+                                  },
+                        "subsystems":  [
+                                           "MCP skill discovery",
+                                           "progressive resource loading",
+                                           "archive extraction",
+                                           "approval gate"
+                                       ],
+                        "failure_modes":  [
+                                              "copied skills diverge across agent deployments",
+                                              "remote archives exhaust disk memory or CPU",
+                                              "remote scripts cross the content-to-execution boundary",
+                                              "hot updates change instructions in the middle of a run"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/",
+                                              "https://learn.microsoft.com/en-us/agent-framework/agents/skills?pivots=programming-language-csharp",
+                                              "https://github.com/microsoft/agent-framework/tree/main/dotnet/samples/02-agents/AgentSkills/Agent_Step06_McpBasedSkills"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "experimental API and evolving MCP skills specification",
+                                            "no throughput cache consistency or adversarial benchmark",
+                                            "archive bounds do not detect malicious natural-language instructions"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  "2026-07-29T17:03:00+08:00",
+                        "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25297",
+                        "title":  "Hybrid Analysis for Secure MCP Tool Use in LLM Agents",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "Zhejiang University / Alibaba Group",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25297",
+                        "published_at":  "2026-07-28T05:17:34Z",
+                        "topic_cluster":  "mcp-tool-lifecycle-hybrid-analysis",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  14,
+                                      "total":  96
+                                  },
+                        "subsystems":  [
+                                           "MCP lifecycle monitor",
+                                           "static analysis",
+                                           "dynamic analysis",
+                                           "tool policy"
+                                       ],
+                        "failure_modes":  [
+                                              "prompt-only screening misses harmful runtime tool behavior",
+                                              "tool risk changes across discovery invocation and result use",
+                                              "unauthorized actions look benign when inspected one message at a time"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25297"
+                                          ],
+                        "state":  "eligible",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint rather than a formally accepted paper",
+                                            "retained because the selected SkillGate item offers stronger supply-chain coverage",
+                                            "reported evaluation was not independently rerun"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25255",
+                        "title":  "SafeFlow: Semantic Information-Flow Control for Blocking Malicious Propagation in Multi-Agent Systems",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "University of Nottingham Ningbo China / Beihang / Shandong / Peking / NUS / Tsinghua / CAS / Meituan / 360",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25255",
+                        "published_at":  "2026-07-28T03:55:47Z",
+                        "topic_cluster":  "multi-agent-semantic-information-flow-control",
+                        "score":  {
+                                      "source_credibility":  23,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  96
+                                  },
+                        "subsystems":  [
+                                           "semantic taint",
+                                           "collaboration graph",
+                                           "workflow validator",
+                                           "irreversible-action gate"
+                                       ],
+                        "failure_modes":  [
+                                              "a harmful objective is fragmented into locally plausible subtasks",
+                                              "risk context disappears across delegation boundaries",
+                                              "single-turn classifiers approve a globally malicious workflow"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25255"
+                                          ],
+                        "state":  "eligible",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint rather than a formally accepted paper",
+                                            "semantic taint classifiers can mislabel benign or adversarial content",
+                                            "retained to avoid overconcentrating this round on security and multi-agent information transfer"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25364",
+                        "title":  "Explanation-Bound Tool Execution for AI Agents: Server-Verified Action Claims Without Trusting Model Rationales",
+                        "source_type":  "paper",
+                        "source_class":  "unverified",
+                        "source_name":  "Independent authors",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25364",
+                        "published_at":  "2026-07-28T07:16:12Z",
+                        "topic_cluster":  "server-verified-tool-action-claims",
+                        "score":  {
+                                      "source_credibility":  16,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  25,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  15,
+                                      "total":  90
+                                  },
+                        "subsystems":  [
+                                           "typed action claims",
+                                           "server policy",
+                                           "tool mediation",
+                                           "audit packet"
+                                       ],
+                        "failure_modes":  [
+                                              "free-form rationales are treated as authorization",
+                                              "tool payload conflicts with server-held intent",
+                                              "stale or incomplete claims reach irreversible execution"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25364"
+                                          ],
+                        "state":  "rejected",
+                        "rejection_reason":  "source_gate_not_met",
+                        "limitations":  [
+                                            "author institutions and formal acceptance could not be verified",
+                                            "authored conformance cases validate the included profile rather than population performance",
+                                            "source credibility is below the hard threshold"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25152",
+                        "title":  "When Do Agent Loops Mistake Stagnation for Progress? Self-Evaluation Bias and Externally Grounded Verification in Long-Running Autonomous LLM Agent Loops",
+                        "source_type":  "paper",
+                        "source_class":  "unverified",
+                        "source_name":  "AsyncSite",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25152",
+                        "published_at":  "2026-07-27T23:52:15Z",
+                        "topic_cluster":  "long-running-agent-out-of-band-evaluation",
+                        "score":  {
+                                      "source_credibility":  15,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  23,
+                                      "evidence_strength":  12,
+                                      "agent_server_value":  15,
+                                      "total":  85
+                                  },
+                        "subsystems":  [
+                                           "agent loop",
+                                           "out-of-band evaluator",
+                                           "world-state oracle",
+                                           "release gate"
+                                       ],
+                        "failure_modes":  [
+                                              "agent self-report mistakes plausible changes for real progress",
+                                              "in-band judges accept regressions",
+                                              "loop state improves while external business state stagnates"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25152"
+                                          ],
+                        "state":  "rejected",
+                        "rejection_reason":  "source_and_evidence_gate_not_met",
+                        "limitations":  [
+                                            "preliminary draft from an unverified institution",
+                                            "pilot contains 54 cycles and one anonymized deployment",
+                                            "source credibility is below the hard threshold"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.25890",
+                        "title":  "Distributing Security Controls Through Harness Engineering",
+                        "source_type":  "paper",
+                        "source_class":  "unverified",
+                        "source_name":  "Independent author",
+                        "canonical_url":  "https://arxiv.org/abs/2607.25890",
+                        "published_at":  "2026-07-28T15:50:16Z",
+                        "topic_cluster":  "coding-agent-security-harness-distribution",
+                        "score":  {
+                                      "source_credibility":  14,
+                                      "problem_specificity":  19,
+                                      "architecture_depth":  21,
+                                      "evidence_strength":  10,
+                                      "agent_server_value":  14,
+                                      "total":  78
+                                  },
+                        "subsystems":  [
+                                           "security harness",
+                                           "OS sandbox",
+                                           "skill scanner",
+                                           "tool restriction"
+                                       ],
+                        "failure_modes":  [
+                                              "security controls are configured inconsistently across developer agents",
+                                              "model nondeterminism produces inconsistent security outcomes",
+                                              "agent behavior crosses OS boundaries"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.25890"
+                                          ],
+                        "state":  "rejected",
+                        "rejection_reason":  "source_and_evidence_below_threshold",
+                        "limitations":  [
+                                            "single-author preprint with no verified qualifying institution",
+                                            "23-test self-authored suite is too small to support general safety claims",
+                                            "source credibility and total score are below hard thresholds"
+                                        ],
+                        "first_discovered_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
                         "published_in_report_at":  null,
                         "report_path":  null
                     }

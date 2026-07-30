@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-07-29T17:03:00+08:00",
+    "updated_at":  "2026-07-30T10:32:24+08:00",
     "canonical_ids":  {
                           "arxiv:2607.18575":  {
                                                    "published_at":  "2026-07-23T10:51:07+08:00",
@@ -221,6 +221,26 @@
                           "url:microsoft-agent-framework-mcp-skills-dotnet-2026":  {
                                                                                       "published_at":  "2026-07-29T17:03:00+08:00",
                                                                                       "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
-                                                                     }
+                                                                                  },
+                          "arxiv:2607.26076":  {
+                                                  "published_at":  "2026-07-30T10:32:24+08:00",
+                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                                              },
+                          "arxiv:2607.26300":  {
+                                                  "published_at":  "2026-07-30T10:32:24+08:00",
+                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                                              },
+                          "arxiv:2607.26637":  {
+                                                  "published_at":  "2026-07-30T10:32:24+08:00",
+                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                                              },
+                          "arxiv:2607.26937":  {
+                                                  "published_at":  "2026-07-30T10:32:24+08:00",
+                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                                              },
+                          "arxiv:2607.27080":  {
+                                                  "published_at":  "2026-07-30T10:32:24+08:00",
+                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                                              }
                       }
 }

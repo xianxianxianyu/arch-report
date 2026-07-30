@@ -1,7 +1,7 @@
 {
     "schema_version":  1,
     "active_scope":  "agent-server-architecture-v1",
-    "updated_at":  "2026-07-29T17:03:00+08:00",
+    "updated_at":  "2026-07-30T10:32:24+08:00",
     "records":  [
                     {
                         "canonical_id":  "arxiv:2607.18575",
@@ -2647,7 +2647,7 @@
                                             "retained as inventory because two stronger Microsoft items were selected"
                                         ],
                         "first_discovered_at":  "2026-07-27T09:21:15.2830865+08:00",
-                        "last_checked_at":  "2026-07-27T09:21:15.2830865+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
                         "published_in_report_at":  null,
                         "report_path":  null
                     },
@@ -3093,7 +3093,7 @@
                                             "retained for source and production-problem coverage optimization"
                                         ],
                         "first_discovered_at":  "2026-07-28T10:38:05+08:00",
-                        "last_checked_at":  "2026-07-28T10:38:05+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
                         "published_in_report_at":  null,
                         "report_path":  null
                     },
@@ -3404,7 +3404,7 @@
                                             "reported evaluation was not independently rerun"
                                         ],
                         "first_discovered_at":  "2026-07-29T16:57:47+08:00",
-                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
                         "published_in_report_at":  null,
                         "report_path":  null
                     },
@@ -3447,7 +3447,7 @@
                                             "retained to avoid overconcentrating this round on security and multi-agent information transfer"
                                         ],
                         "first_discovered_at":  "2026-07-29T16:57:47+08:00",
-                        "last_checked_at":  "2026-07-29T16:57:47+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
                         "published_in_report_at":  null,
                         "report_path":  null
                     },
@@ -3579,6 +3579,315 @@
                         "last_checked_at":  "2026-07-29T16:57:47+08:00",
                         "published_in_report_at":  null,
                         "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.26076",
+                        "title":  "FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "The Chinese University of Hong Kong / Beijing Institute of Technology",
+                        "canonical_url":  "https://arxiv.org/abs/2607.26076",
+                        "published_at":  "2026-07-14T00:00:00Z",
+                        "topic_cluster":  "dependency-consistent-rag-answer-cache",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  15,
+                                      "agent_server_value":  13,
+                                      "total":  96
+                                  },
+                        "subsystems":  [
+                                           "answer reuse router",
+                                           "dependency fingerprints",
+                                           "version store",
+                                           "reverse invalidation index"
+                                       ],
+                        "failure_modes":  [
+                                              "semantic cache returns an answer backed by stale documents",
+                                              "tool model or decoding changes do not invalidate reused answers",
+                                              "version update becomes visible before dependent entries are invalidated",
+                                              "cache hit rate hides dependency-stale outputs"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.26076"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint evaluated on financial-document workloads",
+                                            "zero observed stale outputs is not a formal consistency proof",
+                                            "service-level metadata locking does not directly scale to multi-region serving"
+                                        ],
+                        "first_discovered_at":  "2026-07-30T10:28:10+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
+                        "published_in_report_at":  "2026-07-30T10:32:24+08:00",
+                        "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.26300",
+                        "title":  "AgentGUI: An Interface for Observing and Steering Long-Running AI Agents",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "ETH Zurich",
+                        "canonical_url":  "https://arxiv.org/abs/2607.26300",
+                        "published_at":  "2026-07-28T00:00:00Z",
+                        "topic_cluster":  "long-running-agent-observation-and-steering",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  19,
+                                      "architecture_depth":  23,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  14,
+                                      "total":  95
+                                  },
+                        "subsystems":  [
+                                           "run event stream",
+                                           "persistent sandbox",
+                                           "human steering control",
+                                           "automated audit manager"
+                                       ],
+                        "failure_modes":  [
+                                              "operators cannot understand long interleaved traces",
+                                              "observation interfaces cannot safely intervene in an active run",
+                                              "agent drift consumes compute without satisfying acceptance criteria",
+                                              "checkpoint restore separates trajectory from workspace state"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.26300"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint with an eight-person user study",
+                                            "automated steering is a proof-of-concept experiment",
+                                            "primary framework support is Hermes and cross-harness semantics remain incomplete"
+                                        ],
+                        "first_discovered_at":  "2026-07-30T10:28:10+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
+                        "published_in_report_at":  "2026-07-30T10:32:24+08:00",
+                        "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.26520",
+                        "title":  "A Graph-Native Bitemporal Memory Store for Conversational AI Agents",
+                        "source_type":  "paper",
+                        "source_class":  "unverified",
+                        "source_name":  "Davidson College",
+                        "canonical_url":  "https://arxiv.org/abs/2607.26520",
+                        "published_at":  "2026-07-29T00:00:00Z",
+                        "topic_cluster":  "bitemporal-graph-agent-memory",
+                        "score":  {
+                                      "source_credibility":  18,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  11,
+                                      "agent_server_value":  15,
+                                      "total":  88
+                                  },
+                        "subsystems":  [
+                                           "Neo4j property graph",
+                                           "bitemporal memory versions",
+                                           "HNSW vector indexes",
+                                           "point-in-time retrieval"
+                                       ],
+                        "failure_modes":  [
+                                              "mutable vector records overwrite historical facts",
+                                              "current and historical queries cannot be distinguished",
+                                              "post-filtered temporal search dilutes recall",
+                                              "third-party memory moves private data outside user control"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.26520"
+                                          ],
+                        "state":  "rejected",
+                        "rejection_reason":  "source_gate_not_met",
+                        "limitations":  [
+                                            "formal acceptance and a qualifying R-class institution were not verified",
+                                            "evaluation samples 60 of 500 LongMemEval questions",
+                                            "source credibility is below the hard threshold"
+                                        ],
+                        "first_discovered_at":  "2026-07-30T10:28:10+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.26637",
+                        "title":  "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "UIUC / UC San Diego / UC Merced / Adobe Research / Texas A&M University",
+                        "canonical_url":  "https://arxiv.org/abs/2607.26637",
+                        "published_at":  "2026-07-29T00:00:00Z",
+                        "topic_cluster":  "filesystem-agent-memory-sustainability",
+                        "score":  {
+                                      "source_credibility":  25,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  15,
+                                      "agent_server_value":  14,
+                                      "total":  98
+                                  },
+                        "subsystems":  [
+                                           "memory filesystem",
+                                           "management agent",
+                                           "search agent",
+                                           "execution trajectory distillation"
+                                       ],
+                        "failure_modes":  [
+                                              "agent-maintained organization erodes as memory grows",
+                                              "stale preferences remain live facts",
+                                              "curation cost does not decline with scale",
+                                              "tool harness changes reshape the memory store"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.26637"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint and measured horizons are finite",
+                                            "organization does not consistently improve answer correctness",
+                                            "multi-year multi-tenant privacy and deletion are outside the study"
+                                        ],
+                        "first_discovered_at":  "2026-07-30T10:28:10+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
+                        "published_in_report_at":  "2026-07-30T10:32:24+08:00",
+                        "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.26805",
+                        "title":  "MRCoder: An Efficient Context Selecting Approach for Repository-Level Code Generation",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "Beihang University",
+                        "canonical_url":  "https://arxiv.org/abs/2607.26805",
+                        "published_at":  "2026-07-29T00:00:00Z",
+                        "topic_cluster":  "draft-guided-repository-context-selection",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  23,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  14,
+                                      "total":  95
+                                  },
+                        "subsystems":  [
+                                           "partitioned repository context",
+                                           "draft model map phase",
+                                           "structure-aware context selection",
+                                           "parallel reduce verification"
+                                       ],
+                        "failure_modes":  [
+                                              "repository RAG injects redundant context",
+                                              "context compression adds more cost than it saves",
+                                              "selection loses API-consistent evidence",
+                                              "large contexts increase inference latency"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.26805",
+                                              "https://github.com/zhu-zhu-ding/MRCoder"
+                                          ],
+                        "state":  "eligible",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint rather than a formally accepted paper",
+                                            "retained because VITAL-RAG provides stronger allocation invariants in the same problem family",
+                                            "code and benchmark results were not independently rerun"
+                                        ],
+                        "first_discovered_at":  "2026-07-30T10:28:10+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
+                        "published_in_report_at":  null,
+                        "report_path":  null
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.26937",
+                        "title":  "VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "Nanjing University of Posts and Telecommunications / Tianjin University / Tsinghua AIR",
+                        "canonical_url":  "https://arxiv.org/abs/2607.26937",
+                        "published_at":  "2026-07-29T00:00:00Z",
+                        "topic_cluster":  "canonical-code-object-context-allocation",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  25,
+                                      "evidence_strength":  14,
+                                      "agent_server_value":  14,
+                                      "total":  97
+                                  },
+                        "subsystems":  [
+                                           "repository provenance adapter",
+                                           "canonical object allocator",
+                                           "query-conditioned companion selection",
+                                           "token-budget renderer"
+                                       ],
+                        "failure_modes":  [
+                                              "multiple views of one code object consume several context slots",
+                                              "retrieved evidence is truncated before reaching model input",
+                                              "canonical deduplication removes task-relevant companions",
+                                              "retrieval metrics hide rendering-stage evidence loss"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.26937"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint and path-plus-identifier is not a universally stable object identity",
+                                            "one companion and K equals five are experimental choices",
+                                            "evaluation does not establish long-horizon patch correctness"
+                                        ],
+                        "first_discovered_at":  "2026-07-30T10:28:10+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
+                        "published_in_report_at":  "2026-07-30T10:32:24+08:00",
+                        "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
+                    },
+                    {
+                        "canonical_id":  "arxiv:2607.27080",
+                        "title":  "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
+                        "source_type":  "paper",
+                        "source_class":  "R",
+                        "source_name":  "Zhejiang University of Technology / Binjiang Institute of Artificial Intelligence",
+                        "canonical_url":  "https://arxiv.org/abs/2607.27080",
+                        "published_at":  "2026-07-29T00:00:00Z",
+                        "topic_cluster":  "agent-memory-poisoning-lifecycle-security",
+                        "score":  {
+                                      "source_credibility":  24,
+                                      "problem_specificity":  20,
+                                      "architecture_depth":  24,
+                                      "evidence_strength":  15,
+                                      "agent_server_value":  14,
+                                      "total":  97
+                                  },
+                        "subsystems":  [
+                                           "memory admission",
+                                           "Write-Execute-Forget lifecycle",
+                                           "evidence manifest",
+                                           "selective repair"
+                                       ],
+                        "failure_modes":  [
+                                              "malicious instructions persist in long-term memory",
+                                              "recalled poison produces delayed external effects",
+                                              "single-checkpoint evaluation overstates safety",
+                                              "repair deletes required benign memories"
+                                          ],
+                        "evidence_urls":  [
+                                              "https://arxiv.org/abs/2607.27080"
+                                          ],
+                        "state":  "published",
+                        "rejection_reason":  "",
+                        "limitations":  [
+                                            "preprint with one run per configuration-case pair",
+                                            "judge-model verdicts are not infallible",
+                                            "the 48 contexts do not represent the full production attack distribution"
+                                        ],
+                        "first_discovered_at":  "2026-07-30T10:28:10+08:00",
+                        "last_checked_at":  "2026-07-30T10:28:10+08:00",
+                        "published_in_report_at":  "2026-07-30T10:32:24+08:00",
+                        "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
                     }
                 ]
 }

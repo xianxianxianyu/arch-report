@@ -17,6 +17,7 @@
 ## 文件
 
 - [CODEX_TASK.md](CODEX_TASK.md)：自动化每轮必须遵循的完整流程和质量门槛。
+- [topics/README.md](topics/README.md)：不受 30 天窗口限制的架构专题；当前包含 MCP Server v1→v2 深度报告。
 - `reports/YYYY-MM-DD/YYYY-MM-DD_HH-mm.md`：每轮独立中文报告。
 - [index.md](index.md)：按时间倒序的报告索引。
 - [state/item-cache.json](state/item-cache.json)：候选、评分、证据和发布状态的唯一事实源。

@@ -1,246 +1,286 @@
 {
-    "schema_version":  1,
-    "updated_at":  "2026-07-30T10:32:24+08:00",
-    "canonical_ids":  {
-                          "arxiv:2607.18575":  {
-                                                   "published_at":  "2026-07-23T10:51:07+08:00",
-                                                   "report_path":  "reports/2026-07-23/2026-07-23_10-51.md"
-                                               },
-                          "url:aws-agentcore-obo-token-exchange":  {
-                                                                       "published_at":  "2026-07-23T10:51:07+08:00",
-                                                                       "report_path":  "reports/2026-07-23/2026-07-23_10-51.md"
-                                                                   },
-                          "url:aws-agentcore-runtime-waf":  {
-                                                                "published_at":  "2026-07-23T10:51:07+08:00",
-                                                                "report_path":  "reports/2026-07-23/2026-07-23_10-51.md"
-                                                            },
-                          "url:microsoft-foundry-june-2026":  {
-                                                                  "published_at":  "2026-07-23T10:51:07+08:00",
-                                                                  "report_path":  "reports/2026-07-23/2026-07-23_10-51.md"
-                                                              },
-                          "url:google-cloud-claude-at-scale-2026":  {
-                                                                        "published_at":  "2026-07-23T10:51:07+08:00",
-                                                                        "report_path":  "reports/2026-07-23/2026-07-23_10-51.md"
-                                                                    },
-                          "url:aws-agentcore-ag-ui-2026":  {
-                                                               "published_at":  "2026-07-23T11:07:55+08:00",
-                                                               "report_path":  "reports/2026-07-23/2026-07-23_11-07.md"
-                                                           },
-                          "url:seaweedfs-conditional-writes-2026":  {
-                                                                        "published_at":  "2026-07-23T11:07:55+08:00",
-                                                                        "report_path":  "reports/2026-07-23/2026-07-23_11-07.md"
-                                                                    },
-                          "url:w3c-webagents-interoperability-2026":  {
-                                                                          "published_at":  "2026-07-23T11:07:55+08:00",
-                                                                          "report_path":  "reports/2026-07-23/2026-07-23_11-07.md"
-                                                                      },
-                          "url:aws-s3-zero-downtime-versioning-2026":  {
-                                                                           "published_at":  "2026-07-23T11:07:55+08:00",
-                                                                           "report_path":  "reports/2026-07-23/2026-07-23_11-07.md"
-                                                                       },
-                          "url:apnic-data-synchronization-2026":  {
-                                                                      "published_at":  "2026-07-23T11:07:55+08:00",
-                                                                      "report_path":  "reports/2026-07-23/2026-07-23_11-07.md"
-                                                                  },
-                          "usenix:osdi26:318443":  {
-                                                       "published_at":  "2026-07-23T12:04:59+08:00",
-                                                       "report_path":  "reports/2026-07-23/2026-07-23_11-59.md"
-                                                   },
-                          "usenix:osdi26:318597":  {
-                                                       "published_at":  "2026-07-23T12:04:59+08:00",
-                                                       "report_path":  "reports/2026-07-23/2026-07-23_11-59.md"
-                                                   },
-                          "url:google-cloud-run-sandboxes-2026":  {
-                                                                      "published_at":  "2026-07-23T12:04:59+08:00",
-                                                                      "report_path":  "reports/2026-07-23/2026-07-23_11-59.md"
-                                                                  },
-                          "url:aws-waf-web-bot-auth-2026":  {
-                                                                "published_at":  "2026-07-23T12:04:59+08:00",
-                                                                "report_path":  "reports/2026-07-23/2026-07-23_11-59.md"
-                                                            },
-                          "url:aws-agentcore-structured-memory-filtering-2026":  {
-                                                                                     "published_at":  "2026-07-23T12:04:59+08:00",
-                                                                                     "report_path":  "reports/2026-07-23/2026-07-23_11-59.md"
-                                                                                 },
-                          "usenix:osdi26:318447":  {
-                                                       "published_at":  "2026-07-23T13:46:46+08:00",
-                                                       "report_path":  "reports/2026-07-23/2026-07-23_13-34.md"
-                                                   },
-                          "url:aws-support-companion-agentcore-2026":  {
-                                                                           "published_at":  "2026-07-23T13:46:46+08:00",
-                                                                           "report_path":  "reports/2026-07-23/2026-07-23_13-34.md"
-                                                                       },
-                          "usenix:osdi26:318593":  {
-                                                       "published_at":  "2026-07-23T13:46:46+08:00",
-                                                       "report_path":  "reports/2026-07-23/2026-07-23_13-34.md"
-                                                   },
-                          "url:nvidia-secure-agent-workspace-2026":  {
-                                                                         "published_at":  "2026-07-23T13:46:46+08:00",
-                                                                         "report_path":  "reports/2026-07-23/2026-07-23_13-34.md"
-                                                                     },
-                          "url:cloudflare-agents-sdk-v0170-2026":  {
-                                                                       "published_at":  "2026-07-23T13:46:46+08:00",
-                                                                       "report_path":  "reports/2026-07-23/2026-07-23_13-34.md"
-                                                                   },
-                          "arxiv:2607.19545":  {
-                                                   "published_at":  "2026-07-23T14:10:52+08:00",
-                                                   "report_path":  "reports/2026-07-23/2026-07-23_14-02.md"
-                                               },
-                          "arxiv:2607.19595":  {
-                                                   "published_at":  "2026-07-23T14:10:52+08:00",
-                                                   "report_path":  "reports/2026-07-23/2026-07-23_14-02.md"
-                                               },
-                          "url:microsoft-foundry-toolboxes-user-delegation-2026":  {
-                                                                                       "published_at":  "2026-07-23T14:10:52+08:00",
-                                                                                       "report_path":  "reports/2026-07-23/2026-07-23_14-02.md"
-                                                                                   },
-                          "url:cloudflare-mcp-client-elicitation-2026":  {
-                                                                             "published_at":  "2026-07-23T14:10:52+08:00",
-                                                                             "report_path":  "reports/2026-07-23/2026-07-23_14-02.md"
-                                                                         },
-                          "url:aws-quick-nemo-specialized-workflows-2026":  {
-                                                                                "published_at":  "2026-07-23T14:10:52+08:00",
-                                                                                "report_path":  "reports/2026-07-23/2026-07-23_14-02.md"
-                                                                            },
-                          "arxiv:2607.19837":  {
-                                                   "published_at":  "2026-07-23T18:17:01+08:00",
-                                                   "report_path":  "reports/2026-07-23/2026-07-23_18-08.md"
-                                               },
-                          "url:aws-ktern-agentcore-sap-2026":  {
-                                                                   "published_at":  "2026-07-23T18:17:01+08:00",
-                                                                   "report_path":  "reports/2026-07-23/2026-07-23_18-08.md"
-                                                               },
-                          "url:cloudflare-mcp-codemode-host-api-2026":  {
-                                                                            "published_at":  "2026-07-23T18:17:01+08:00",
-                                                                            "report_path":  "reports/2026-07-23/2026-07-23_18-08.md"
-                                                                        },
-                          "url:google-genkit-fullstack-agents-2026":  {
-                                                                          "published_at":  "2026-07-23T18:17:01+08:00",
-                                                                          "report_path":  "reports/2026-07-23/2026-07-23_18-08.md"
-                                                                      },
-                          "url:anthropic-ai-native-sdlc-security-2026":  {
-                                                                             "published_at":  "2026-07-23T18:17:01+08:00",
-                                                                             "report_path":  "reports/2026-07-23/2026-07-23_18-08.md"
-                                                                         },
-                          "url:anthropic-outtake-recon-agent-2026":  {
-                                                                         "published_at":  "2026-07-24T09:38:43.4249948+08:00",
-                                                                         "report_path":  "reports/2026-07-24/2026-07-24_09-23.md"
-                                                                     },
-                          "arxiv:2607.20121":  {
-                                                   "published_at":  "2026-07-24T09:38:43.4249948+08:00",
-                                                   "report_path":  "reports/2026-07-24/2026-07-24_09-23.md"
-                                               },
-                          "url:aws-agent-evaluation-blueprint-2026":  {
-                                                                          "published_at":  "2026-07-24T09:38:43.4249948+08:00",
-                                                                          "report_path":  "reports/2026-07-24/2026-07-24_09-23.md"
-                                                                      },
-                          "url:aws-agentcore-silent-failures-2026":  {
-                                                                         "published_at":  "2026-07-24T09:38:43.4249948+08:00",
-                                                                         "report_path":  "reports/2026-07-24/2026-07-24_09-23.md"
-                                                                     },
-                          "url:google-voicify-voice-agent-2026":  {
-                                                                      "published_at":  "2026-07-24T09:38:43.4249948+08:00",
-                                                                      "report_path":  "reports/2026-07-24/2026-07-24_09-23.md"
-                                                                  },
-                          "url:aws-monday-ai-teammates-2026":  {
-                                                                   "published_at":  "2026-07-24T13:40:49.4086865+08:00",
-                                                                   "report_path":  "reports/2026-07-24/2026-07-24_13-33.md"
-                                                               },
-                          "arxiv:2607.01793":  {
-                                                   "published_at":  "2026-07-24T13:40:49.4086865+08:00",
-                                                   "report_path":  "reports/2026-07-24/2026-07-24_13-33.md"
-                                               },
-                          "url:aws-bedrock-guardrails-codegen-2026":  {
-                                                                          "published_at":  "2026-07-24T13:40:49.4086865+08:00",
-                                                                          "report_path":  "reports/2026-07-24/2026-07-24_13-33.md"
-                                                                      },
-                          "arxiv:2607.19430":  {
-                                                   "published_at":  "2026-07-24T13:40:49.4086865+08:00",
-                                                   "report_path":  "reports/2026-07-24/2026-07-24_13-33.md"
-                                               },
-                          "arxiv:2607.19913":  {
-                                                   "published_at":  "2026-07-24T13:40:49.4086865+08:00",
-                                                   "report_path":  "reports/2026-07-24/2026-07-24_13-33.md"
-                                               },
-                          "url:google-okf-v02-trust-signals-2026":  {
-                                                                        "published_at":  "2026-07-27T09:37:31.6203521+08:00",
-                                                                        "report_path":  "reports/2026-07-27/2026-07-27_09-21.md"
-                                                                    },
-                          "arxiv:2607.20759":  {
-                                                   "published_at":  "2026-07-27T09:37:31.6203521+08:00",
-                                                   "report_path":  "reports/2026-07-27/2026-07-27_09-21.md"
-                                               },
-                          "url:microsoft-cosmos-native-agent-memory-2026":  {
-                                                                                "published_at":  "2026-07-27T09:37:31.6203521+08:00",
-                                                                                "report_path":  "reports/2026-07-27/2026-07-27_09-21.md"
-                                                                            },
-                          "url:microsoft-agent-framework-declarative-workflows-1-0":  {
-                                                                                          "published_at":  "2026-07-27T09:37:31.6203521+08:00",
-                                                                                          "report_path":  "reports/2026-07-27/2026-07-27_09-21.md"
-                                                                                      },
-                          "url:aws-jefferies-trade-assistant-2026":  {
-                                                                         "published_at":  "2026-07-27T09:37:31.6203521+08:00",
-                                                                         "report_path":  "reports/2026-07-27/2026-07-27_09-21.md"
-                                                                     },
-                          "url:huggingface-security-incident-july-2026":  {
-                                                                              "published_at":  "2026-07-28T10:55:44+08:00",
-                                                                              "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
-                                                                          },
-                          "url:cloudflare-agents-sdk-v0200-mcp-v2-2026":  {
-                                                                               "published_at":  "2026-07-28T10:55:44+08:00",
-                                                                               "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
-                                                                           },
-                          "url:microsoft-agent-framework-harness-release-2026":  {
-                                                                                     "published_at":  "2026-07-28T10:55:44+08:00",
-                                                                                     "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
-                                                                                 },
-                          "url:aws-managed-kb-enterprise-search-agents-2026":  {
-                                                                                  "published_at":  "2026-07-28T10:55:44+08:00",
-                                                                                  "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
-                                                                              },
-                          "url:aws-couchbase-capella-iq-multimodel-2026":  {
-                                                                             "published_at":  "2026-07-28T10:55:44+08:00",
-                                                                             "report_path":  "reports/2026-07-28/2026-07-28_10-38.md"
-                                                                         },
-                          "arxiv:2607.25883":  {
-                                                  "published_at":  "2026-07-29T17:03:00+08:00",
-                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
-                                              },
-                          "arxiv:2607.25431":  {
-                                                  "published_at":  "2026-07-29T17:03:00+08:00",
-                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
-                                              },
-                          "arxiv:2607.25619":  {
-                                                  "published_at":  "2026-07-29T17:03:00+08:00",
-                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
-                                              },
-                          "arxiv:2607.25656":  {
-                                                  "published_at":  "2026-07-29T17:03:00+08:00",
-                                                  "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
-                                              },
-                          "url:microsoft-agent-framework-mcp-skills-dotnet-2026":  {
-                                                                                      "published_at":  "2026-07-29T17:03:00+08:00",
-                                                                                      "report_path":  "reports/2026-07-29/2026-07-29_16-57.md"
-                                                                                  },
-                          "arxiv:2607.26076":  {
-                                                  "published_at":  "2026-07-30T10:32:24+08:00",
-                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
-                                              },
-                          "arxiv:2607.26300":  {
-                                                  "published_at":  "2026-07-30T10:32:24+08:00",
-                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
-                                              },
-                          "arxiv:2607.26637":  {
-                                                  "published_at":  "2026-07-30T10:32:24+08:00",
-                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
-                                              },
-                          "arxiv:2607.26937":  {
-                                                  "published_at":  "2026-07-30T10:32:24+08:00",
-                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
-                                              },
-                          "arxiv:2607.27080":  {
-                                                  "published_at":  "2026-07-30T10:32:24+08:00",
-                                                  "report_path":  "reports/2026-07-30/2026-07-30_10-28.md"
-                                              }
-                      }
+  "schema_version": 1,
+  "updated_at": "2026-07-31T18:39:11+08:00",
+  "canonical_ids": {
+    "arxiv:2607.18575": {
+      "published_at": "2026-07-23T10:51:07+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_10-51.md"
+    },
+    "url:aws-agentcore-obo-token-exchange": {
+      "published_at": "2026-07-23T10:51:07+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_10-51.md"
+    },
+    "url:aws-agentcore-runtime-waf": {
+      "published_at": "2026-07-23T10:51:07+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_10-51.md"
+    },
+    "url:microsoft-foundry-june-2026": {
+      "published_at": "2026-07-23T10:51:07+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_10-51.md"
+    },
+    "url:google-cloud-claude-at-scale-2026": {
+      "published_at": "2026-07-23T10:51:07+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_10-51.md"
+    },
+    "url:aws-agentcore-ag-ui-2026": {
+      "published_at": "2026-07-23T11:07:55+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-07.md"
+    },
+    "url:seaweedfs-conditional-writes-2026": {
+      "published_at": "2026-07-23T11:07:55+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-07.md"
+    },
+    "url:w3c-webagents-interoperability-2026": {
+      "published_at": "2026-07-23T11:07:55+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-07.md"
+    },
+    "url:aws-s3-zero-downtime-versioning-2026": {
+      "published_at": "2026-07-23T11:07:55+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-07.md"
+    },
+    "url:apnic-data-synchronization-2026": {
+      "published_at": "2026-07-23T11:07:55+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-07.md"
+    },
+    "usenix:osdi26:318443": {
+      "published_at": "2026-07-23T12:04:59+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-59.md"
+    },
+    "usenix:osdi26:318597": {
+      "published_at": "2026-07-23T12:04:59+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-59.md"
+    },
+    "url:google-cloud-run-sandboxes-2026": {
+      "published_at": "2026-07-23T12:04:59+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-59.md"
+    },
+    "url:aws-waf-web-bot-auth-2026": {
+      "published_at": "2026-07-23T12:04:59+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-59.md"
+    },
+    "url:aws-agentcore-structured-memory-filtering-2026": {
+      "published_at": "2026-07-23T12:04:59+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_11-59.md"
+    },
+    "usenix:osdi26:318447": {
+      "published_at": "2026-07-23T13:46:46+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_13-34.md"
+    },
+    "url:aws-support-companion-agentcore-2026": {
+      "published_at": "2026-07-23T13:46:46+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_13-34.md"
+    },
+    "usenix:osdi26:318593": {
+      "published_at": "2026-07-23T13:46:46+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_13-34.md"
+    },
+    "url:nvidia-secure-agent-workspace-2026": {
+      "published_at": "2026-07-23T13:46:46+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_13-34.md"
+    },
+    "url:cloudflare-agents-sdk-v0170-2026": {
+      "published_at": "2026-07-23T13:46:46+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_13-34.md"
+    },
+    "arxiv:2607.19545": {
+      "published_at": "2026-07-23T14:10:52+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_14-02.md"
+    },
+    "arxiv:2607.19595": {
+      "published_at": "2026-07-23T14:10:52+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_14-02.md"
+    },
+    "url:microsoft-foundry-toolboxes-user-delegation-2026": {
+      "published_at": "2026-07-23T14:10:52+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_14-02.md"
+    },
+    "url:cloudflare-mcp-client-elicitation-2026": {
+      "published_at": "2026-07-23T14:10:52+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_14-02.md"
+    },
+    "url:aws-quick-nemo-specialized-workflows-2026": {
+      "published_at": "2026-07-23T14:10:52+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_14-02.md"
+    },
+    "arxiv:2607.19837": {
+      "published_at": "2026-07-23T18:17:01+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_18-08.md"
+    },
+    "url:aws-ktern-agentcore-sap-2026": {
+      "published_at": "2026-07-23T18:17:01+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_18-08.md"
+    },
+    "url:cloudflare-mcp-codemode-host-api-2026": {
+      "published_at": "2026-07-23T18:17:01+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_18-08.md"
+    },
+    "url:google-genkit-fullstack-agents-2026": {
+      "published_at": "2026-07-23T18:17:01+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_18-08.md"
+    },
+    "url:anthropic-ai-native-sdlc-security-2026": {
+      "published_at": "2026-07-23T18:17:01+08:00",
+      "report_path": "reports/2026-07-23/2026-07-23_18-08.md"
+    },
+    "url:anthropic-outtake-recon-agent-2026": {
+      "published_at": "2026-07-24T09:38:43.4249948+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_09-23.md"
+    },
+    "arxiv:2607.20121": {
+      "published_at": "2026-07-24T09:38:43.4249948+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_09-23.md"
+    },
+    "url:aws-agent-evaluation-blueprint-2026": {
+      "published_at": "2026-07-24T09:38:43.4249948+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_09-23.md"
+    },
+    "url:aws-agentcore-silent-failures-2026": {
+      "published_at": "2026-07-24T09:38:43.4249948+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_09-23.md"
+    },
+    "url:google-voicify-voice-agent-2026": {
+      "published_at": "2026-07-24T09:38:43.4249948+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_09-23.md"
+    },
+    "url:aws-monday-ai-teammates-2026": {
+      "published_at": "2026-07-24T13:40:49.4086865+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_13-33.md"
+    },
+    "arxiv:2607.01793": {
+      "published_at": "2026-07-24T13:40:49.4086865+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_13-33.md"
+    },
+    "url:aws-bedrock-guardrails-codegen-2026": {
+      "published_at": "2026-07-24T13:40:49.4086865+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_13-33.md"
+    },
+    "arxiv:2607.19430": {
+      "published_at": "2026-07-24T13:40:49.4086865+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_13-33.md"
+    },
+    "arxiv:2607.19913": {
+      "published_at": "2026-07-24T13:40:49.4086865+08:00",
+      "report_path": "reports/2026-07-24/2026-07-24_13-33.md"
+    },
+    "url:google-okf-v02-trust-signals-2026": {
+      "published_at": "2026-07-27T09:37:31.6203521+08:00",
+      "report_path": "reports/2026-07-27/2026-07-27_09-21.md"
+    },
+    "arxiv:2607.20759": {
+      "published_at": "2026-07-27T09:37:31.6203521+08:00",
+      "report_path": "reports/2026-07-27/2026-07-27_09-21.md"
+    },
+    "url:microsoft-cosmos-native-agent-memory-2026": {
+      "published_at": "2026-07-27T09:37:31.6203521+08:00",
+      "report_path": "reports/2026-07-27/2026-07-27_09-21.md"
+    },
+    "url:microsoft-agent-framework-declarative-workflows-1-0": {
+      "published_at": "2026-07-27T09:37:31.6203521+08:00",
+      "report_path": "reports/2026-07-27/2026-07-27_09-21.md"
+    },
+    "url:aws-jefferies-trade-assistant-2026": {
+      "published_at": "2026-07-27T09:37:31.6203521+08:00",
+      "report_path": "reports/2026-07-27/2026-07-27_09-21.md"
+    },
+    "url:huggingface-security-incident-july-2026": {
+      "published_at": "2026-07-28T10:55:44+08:00",
+      "report_path": "reports/2026-07-28/2026-07-28_10-38.md"
+    },
+    "url:cloudflare-agents-sdk-v0200-mcp-v2-2026": {
+      "published_at": "2026-07-28T10:55:44+08:00",
+      "report_path": "reports/2026-07-28/2026-07-28_10-38.md"
+    },
+    "url:microsoft-agent-framework-harness-release-2026": {
+      "published_at": "2026-07-28T10:55:44+08:00",
+      "report_path": "reports/2026-07-28/2026-07-28_10-38.md"
+    },
+    "url:aws-managed-kb-enterprise-search-agents-2026": {
+      "published_at": "2026-07-28T10:55:44+08:00",
+      "report_path": "reports/2026-07-28/2026-07-28_10-38.md"
+    },
+    "url:aws-couchbase-capella-iq-multimodel-2026": {
+      "published_at": "2026-07-28T10:55:44+08:00",
+      "report_path": "reports/2026-07-28/2026-07-28_10-38.md"
+    },
+    "arxiv:2607.25883": {
+      "published_at": "2026-07-29T17:03:00+08:00",
+      "report_path": "reports/2026-07-29/2026-07-29_16-57.md"
+    },
+    "arxiv:2607.25431": {
+      "published_at": "2026-07-29T17:03:00+08:00",
+      "report_path": "reports/2026-07-29/2026-07-29_16-57.md"
+    },
+    "arxiv:2607.25619": {
+      "published_at": "2026-07-29T17:03:00+08:00",
+      "report_path": "reports/2026-07-29/2026-07-29_16-57.md"
+    },
+    "arxiv:2607.25656": {
+      "published_at": "2026-07-29T17:03:00+08:00",
+      "report_path": "reports/2026-07-29/2026-07-29_16-57.md"
+    },
+    "url:microsoft-agent-framework-mcp-skills-dotnet-2026": {
+      "published_at": "2026-07-29T17:03:00+08:00",
+      "report_path": "reports/2026-07-29/2026-07-29_16-57.md"
+    },
+    "arxiv:2607.26076": {
+      "published_at": "2026-07-30T10:32:24+08:00",
+      "report_path": "reports/2026-07-30/2026-07-30_10-28.md"
+    },
+    "arxiv:2607.26300": {
+      "published_at": "2026-07-30T10:32:24+08:00",
+      "report_path": "reports/2026-07-30/2026-07-30_10-28.md"
+    },
+    "arxiv:2607.26637": {
+      "published_at": "2026-07-30T10:32:24+08:00",
+      "report_path": "reports/2026-07-30/2026-07-30_10-28.md"
+    },
+    "arxiv:2607.26937": {
+      "published_at": "2026-07-30T10:32:24+08:00",
+      "report_path": "reports/2026-07-30/2026-07-30_10-28.md"
+    },
+    "arxiv:2607.27080": {
+      "published_at": "2026-07-30T10:32:24+08:00",
+      "report_path": "reports/2026-07-30/2026-07-30_10-28.md"
+    },
+    "arxiv:2607.25297": {
+      "published_at": "2026-07-31T14:20:41+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_14-01.md"
+    },
+    "arxiv:2607.27309": {
+      "published_at": "2026-07-31T14:20:41+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_14-01.md"
+    },
+    "arxiv:2607.27834": {
+      "published_at": "2026-07-31T14:20:41+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_14-01.md"
+    },
+    "arxiv:2607.28430": {
+      "published_at": "2026-07-31T14:20:41+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_14-01.md"
+    },
+    "arxiv:2607.28527": {
+      "published_at": "2026-07-31T14:20:41+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_14-01.md"
+    },
+    "arxiv:2607.27484": {
+      "published_at": "2026-07-31T18:39:11+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_15-43.md"
+    },
+    "arxiv:2607.01874": {
+      "published_at": "2026-07-31T18:39:11+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_15-43.md"
+    },
+    "arxiv:2607.10113": {
+      "published_at": "2026-07-31T18:39:11+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_15-43.md"
+    },
+    "url:microsoft-building-ax-evals-2026": {
+      "published_at": "2026-07-31T18:39:11+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_15-43.md"
+    },
+    "url:microsoft-dev-proxy-agent-skill-eval-2026": {
+      "published_at": "2026-07-31T18:39:11+08:00",
+      "report_path": "reports/2026-07-31/2026-07-31_15-43.md"
+    }
+  }
 }
